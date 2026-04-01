@@ -240,6 +240,92 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* ─── GOOGLE REVIEWS ─── */}
+      <section style={{ backgroundColor: '#fff', padding: '60px 0' }}>
+        <div style={{ width: '90%', maxWidth: '860px', margin: '0 auto' }}>
+          {/* Heading */}
+          <h2 style={{ textAlign: 'center', marginBottom: '40px', lineHeight: 1 }}>
+            <span style={{ color: '#5c5c5c', fontSize: '20px', display: 'block', fontFamily: "'Oswald', sans-serif", fontWeight: 400, textTransform: 'uppercase', letterSpacing: '0.15em' }}>
+              GOOGLE
+            </span>
+            <span style={{ color: '#1a1a1a', fontSize: '60px', fontWeight: 800, fontFamily: "'Oswald', sans-serif", lineHeight: 1.1, display: 'block', textTransform: 'uppercase' }}>
+              REVIEWS
+            </span>
+          </h2>
+
+          {/* Review cards */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
+            {[
+              {
+                name: 'Julie Poplawski-Mitchel',
+                date: 'Jul 31, 2025',
+                stars: 5,
+                text: "Jay is so much fun, and super easy to work with! His professionalism and consultative approach in taking the time to walk us through understanding the housing market, resulted in a more knowledgeable and comforting process. This gave us the confidence that we were making a great choice, with the right offer. Thank you Jay!!! :)",
+              },
+              {
+                name: 'Madison Frederick',
+                date: 'Feb 26, 2025',
+                stars: 5,
+                text: "Selling and buying a home can be such a stressful experience! Thankfully I chose to work with Jay Lesky! Best choice I could've made!! He made selling my condo and buying my home a seamless experience!!! I'm so happy with the amazing home he found me!!! It was so clear that he genuinely cared!!! A lot of agents just want to close the deal and make the sale but not Jay!! Jay was going to make sure he got me into the perfect house!!!! I'm so so happy to have found him!!!! The nicest guy ever as well!!! I highly recommend him!!! You will not be disappointed! His whole team was absolutely lovely !!!! I really can't say enough good things about him and his team !!",
+              },
+              {
+                name: 'Sharon Dickenson',
+                date: 'Jan 13, 2025',
+                stars: 5,
+                text: "I had a wonderful experience working with Pay It Forward Realty. The entire team was professional, knowledgeable, and truly cared about finding us the right home. I would highly recommend them to anyone looking to buy or sell in the Brantford area!",
+              },
+            ].map((review, i) => (
+              <div
+                key={i}
+                style={{
+                  border: '1px solid #ddd',
+                  borderTop: i === 0 ? '1px solid #ddd' : 'none',
+                  padding: '28px 32px',
+                  backgroundColor: '#fff',
+                }}
+              >
+                <div style={{ textAlign: 'center', marginBottom: '8px' }}>
+                  <span style={{ fontFamily: "'Raleway', sans-serif", fontWeight: 700, fontSize: '16px', color: '#1a1a1a' }}>{review.name}</span>
+                  <span style={{ color: '#999', fontSize: '14px' }}>,</span>
+                </div>
+                <div style={{ textAlign: 'center', marginBottom: '8px' }}>
+                  <span style={{ fontFamily: "'Raleway', sans-serif", fontSize: '14px', color: '#58b3e5' }}>{review.date}</span>
+                </div>
+                <div style={{ textAlign: 'center', marginBottom: '12px' }}>
+                  <span style={{ color: '#f4b400', fontSize: '22px', letterSpacing: '2px' }}>{'★'.repeat(review.stars)}</span>
+                </div>
+                <p style={{ fontFamily: "'Raleway', sans-serif", fontSize: '14px', color: '#444', lineHeight: 1.8, margin: 0 }}>
+                  {review.text}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Google link */}
+          <div style={{ textAlign: 'center', marginTop: '32px' }}>
+            <a
+              href="https://www.google.com/maps/place/Pay+It+Forward+Realty"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-block',
+                border: '1px solid #1a1a1a',
+                color: '#1a1a1a',
+                padding: '12px 32px',
+                fontFamily: "'Raleway', sans-serif",
+                fontSize: '13px',
+                textTransform: 'uppercase',
+                letterSpacing: '0.1em',
+                textDecoration: 'none',
+                fontWeight: 700,
+              }}
+            >
+              SEE ALL GOOGLE REVIEWS
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* ─── ABOUT / INTRO ─── */}
       <section style={{ backgroundColor: '#f5f5f5', padding: '60px 0' }}>
         <div
