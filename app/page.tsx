@@ -2,6 +2,7 @@ import Link from 'next/link';
 import SearchBar from '@/components/SearchBar';
 import FeaturedCarousel from '@/components/FeaturedCarousel';
 import MortgageCalculator from '@/components/MortgageCalculator';
+import TeamCarousel from '@/components/TeamCarousel';
 import type { Listing } from '@/types/listing';
 
 async function getFeaturedListings(): Promise<Listing[]> {
@@ -198,6 +199,43 @@ export default async function HomePage() {
             >
               View All Listings
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── THE KIND OF REALTORS YOU DESERVE ─── */}
+      <section style={{ backgroundColor: '#f5f5f5', padding: '60px 0' }}>
+        <div style={{ width: '90%', maxWidth: '1280px', margin: '0 auto', display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '60px' }}>
+          {/* Left: text */}
+          <div style={{ flex: '1 1 340px' }}>
+            <h2 style={{ fontFamily: "'Oswald', sans-serif", fontSize: '32px', fontWeight: 700, color: '#1a1a1a', textTransform: 'uppercase', marginBottom: '16px', lineHeight: 1.2 }}>
+              THE KIND OF REALTORS® YOU DESERVE
+            </h2>
+            <p style={{ fontFamily: "'Raleway', sans-serif", fontSize: '15px', color: '#555', lineHeight: 1.9, marginBottom: '28px', maxWidth: '480px' }}>
+              Our team will out-work, out-service, and out-perform any individual. You will always have more than one REALTOR® helping you achieve your goals. What could be better than receiving the help of multiple agents for the price of one?
+            </p>
+            <Link
+              href="/team"
+              style={{
+                display: 'inline-block',
+                backgroundColor: '#58b3e5',
+                color: '#fff',
+                padding: '14px 36px',
+                fontFamily: "'Raleway', sans-serif",
+                fontSize: '14px',
+                textTransform: 'uppercase',
+                letterSpacing: '0.1em',
+                fontWeight: 700,
+                textDecoration: 'none',
+              }}
+            >
+              MEET THE TEAM
+            </Link>
+          </div>
+
+          {/* Right: headshot carousel */}
+          <div style={{ flex: '0 0 260px', display: 'flex', justifyContent: 'center', paddingBottom: '80px' }}>
+            <TeamCarousel />
           </div>
         </div>
       </section>
