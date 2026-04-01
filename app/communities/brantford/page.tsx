@@ -62,7 +62,7 @@ export default async function BrantfordCommunityPage() {
                 className="listings-grid"
               >
                 {listings.map((listing) => (
-                  <ListingCard key={listing.ListingKey} listing={listing} />
+                  <ListingCard key={listing.id} listing={listing} />
                 ))}
               </div>
             </>
