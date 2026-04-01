@@ -73,6 +73,33 @@ export default async function HomePage() {
           }}
         />
 
+        {/* #YOUDESERVEMORE — centered over video */}
+        <div
+          style={{
+            position: 'absolute',
+            top: '40%',
+            transform: 'translateY(-50%)',
+            zIndex: 100,
+            width: '100%',
+            textAlign: 'center',
+            pointerEvents: 'none',
+          }}
+        >
+          <span
+            style={{
+              fontFamily: "'Oswald', sans-serif",
+              fontSize: 'clamp(36px, 7vw, 90px)',
+              fontWeight: 800,
+              color: '#fff',
+              textTransform: 'uppercase',
+              letterSpacing: '0.05em',
+              textShadow: '2px 2px 12px rgba(0,0,0,0.5)',
+            }}
+          >
+            #YOUDESERVEMORE
+          </span>
+        </div>
+
         {/* Search bar — 60% from top */}
         <div
           style={{
