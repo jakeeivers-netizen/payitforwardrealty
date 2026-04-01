@@ -33,6 +33,50 @@ export default function Header() {
           width: '100%',
         }}
       >
+        {/* ─── TOP BAR: phone, email, socials ─── */}
+        <div style={{ borderBottom: '1px solid #2a2a2a', padding: '6px 0' }}>
+          <div style={{ width: '90%', maxWidth: '1280px', margin: '0 auto', display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: '16px' }}>
+            {/* Phone */}
+            <a href="tel:5197577439" style={{ color: '#ccc', fontFamily: "'Raleway', sans-serif", fontSize: '13px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '5px' }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = '#58b3e5')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = '#ccc')}
+            >
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+              (519)757-7439
+            </a>
+            <span style={{ color: '#333' }}>|</span>
+            {/* Email */}
+            <a href="mailto:info@payitforwardrealty.ca" style={{ color: '#ccc', fontFamily: "'Raleway', sans-serif", fontSize: '13px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '5px' }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = '#58b3e5')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = '#ccc')}
+            >
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              info@payitforwardrealty.ca
+            </a>
+            <span style={{ color: '#333' }}>|</span>
+            {/* Facebook */}
+            <a href="https://www.facebook.com/payitforwardrealty" target="_blank" rel="noopener noreferrer" style={{ color: '#ccc', display: 'flex', alignItems: 'center' }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = '#58b3e5')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = '#ccc')}
+            >
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            {/* Instagram */}
+            <a href="https://www.instagram.com/payitforwardrealty" target="_blank" rel="noopener noreferrer" style={{ color: '#ccc', display: 'flex', alignItems: 'center' }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = '#58b3e5')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = '#ccc')}
+            >
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            {/* YouTube */}
+            <a href="https://www.youtube.com/@payitforwardrealty" target="_blank" rel="noopener noreferrer" style={{ color: '#ccc', display: 'flex', alignItems: 'center' }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = '#58b3e5')}
+              onMouseLeave={(e) => (e.currentTarget.style.color = '#ccc')}
+            >
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#1a1a1a"/></svg>
+            </a>
+          </div>
+        </div>
         <div
           style={{
             width: '90%',
