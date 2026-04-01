@@ -30,6 +30,7 @@ export async function GET(request: NextRequest) {
       offset: searchParams.get('offset')
         ? parseInt(searchParams.get('offset')!, 10)
         : 0,
+      officeKey: searchParams.get('officeKey') || undefined,
     };
 
     const { listings, total } = await searchListings(params);

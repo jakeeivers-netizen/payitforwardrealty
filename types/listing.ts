@@ -32,4 +32,5 @@ export interface ListingSearchParams {
   status?: string;
   limit?: number;
   offset?: number;
+  officeKey?: string;
 }

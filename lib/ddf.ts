@@ -130,6 +130,9 @@ export async function searchListings(
   if (params.propertyType && params.propertyType !== 'All Types') {
     filters.push(`PropertyType eq '${params.propertyType}'`);
   }
+  if (params.officeKey) {
+    filters.push(`ListOfficeKey eq '${params.officeKey}'`);
+  }
 
   const top = params.limit || 20;
   const skip = params.offset || 0;
