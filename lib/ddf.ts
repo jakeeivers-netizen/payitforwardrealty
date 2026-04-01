@@ -153,8 +153,43 @@ export async function searchListings(
   const items: Record<string, unknown>[] = data.value || [];
   const total: number = data['@odata.count'] || items.length;
 
+  // Fetch media for all listings in one request
+  const listingKeys = items.map((p) => String(p['ListingKey'] || '')).filter(Boolean);
+  const mediaMap: Record<string, string[]> = {};
+
+  if (listingKeys.length > 0) {
+    try {
+      const keyFilter = listingKeys.map((k) => `ResourceRecordKey eq '${k}'`).join(' or ');
+      const mediaQuery = new URLSearchParams({
+        $filter: keyFilter,
+        $orderby: 'ResourceRecordKey,Order',
+        $top: String(listingKeys.length * 5), // up to 5 photos per listing
+      });
+      const mediaRes = await ddfFetch(`/Media?${mediaQuery.toString()}`);
+      if (mediaRes.ok) {
+        const mediaData = await mediaRes.json();
+        const mediaItems: Record<string, unknown>[] = mediaData.value || [];
+        for (const m of mediaItems) {
+          const key = String(m['ResourceRecordKey'] || '');
+          const url = String(m['MediaURL'] || '');
+          if (key && url) {
+            if (!mediaMap[key]) mediaMap[key] = [];
+            mediaMap[key].push(url);
+          }
+        }
+      }
+    } catch {
+      // Media fetch failed — listings still render without images
+    }
+  }
+
   return {
-    listings: items.map(mapPropertyToListing),
+    listings: items.map((p) => {
+      const listing = mapPropertyToListing(p);
+      const key = String(p['ListingKey'] || '');
+      if (mediaMap[key]?.length) listing.images = mediaMap[key];
+      return listing;
+    }),
     total,
   };
 }
@@ -166,5 +201,21 @@ export async function getListing(listingKey: string): Promise<Listing | null> {
   if (!res.ok) throw new Error(`DDF get listing failed: ${res.status}`);
 
   const data = await res.json();
-  return mapPropertyToListing(data);
+  const listing = mapPropertyToListing(data);
+
+  // Fetch media separately
+  try {
+    const mediaRes = await ddfFetch(`/Media?$filter=ResourceRecordKey eq '${listingKey}'&$orderby=Order&$top=20`);
+    if (mediaRes.ok) {
+      const mediaData = await mediaRes.json();
+      const urls = (mediaData.value || [])
+        .map((m: Record<string, unknown>) => String(m['MediaURL'] || ''))
+        .filter(Boolean);
+      if (urls.length) listing.images = urls;
+    }
+  } catch {
+    // proceed without images
+  }
+
+  return listing;
 }
