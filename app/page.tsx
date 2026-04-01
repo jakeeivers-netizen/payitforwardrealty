@@ -7,7 +7,7 @@ import type { Listing } from '@/types/listing';
 async function getFeaturedListings(): Promise<Listing[]> {
   try {
     const baseUrl = process.env.NEXTAUTH_URL || 'http://localhost:3000';
-    const res = await fetch(`${baseUrl}/api/listings?officeKey=287105&limit=9`, {
+    const res = await fetch(`${baseUrl}/api/listings?officeKey=280719&limit=9`, {
       cache: 'no-store',
     });
     if (!res.ok) return [];
