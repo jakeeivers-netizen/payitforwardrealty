@@ -6,14 +6,15 @@ import AuthModal from './AuthModal';
 
 const navLinks = [
   { href: '/', label: 'HOME' },
-  { href: '/listings', label: 'BUY' },
-  { href: '/listings?status=For+Rent', label: 'RENT' },
+  { href: '/team', label: 'TEAM' },
+  { href: '/listings', label: 'LISTINGS' },
+  { href: '/sellers/home-worth', label: 'HOME EVALUATION' },
+  { href: '/buyers', label: 'BUYERS' },
+  { href: '/sellers', label: 'SELLERS' },
+  { href: '/blog', label: 'BLOG' },
+  { href: '/contact', label: 'CONTACT' },
   { href: '/communities/brantford', label: 'BRANTFORD' },
   { href: '/communities/simcoe', label: 'SIMCOE' },
-  { href: '/sellers/home-worth', label: 'HOME WORTH' },
-  { href: '/team', label: 'TEAM' },
-  { href: '/testimonials', label: 'TESTIMONIALS' },
-  { href: '/contact', label: 'CONTACT' },
 ];
 
 export default function Header() {
