@@ -120,7 +120,14 @@ function mapPropertyToListing(p: Record<string, unknown>): Listing {
 export async function searchListings(
   params: ListingSearchParams
 ): Promise<{ listings: Listing[]; total: number }> {
-  const filters: string[] = ['StandardStatus eq \'Active\''];
+  // Map our status param to DDF StandardStatus values
+  let statusFilter = `StandardStatus eq 'Active'`;
+  if (params.status === 'Sold') {
+    statusFilter = `StandardStatus eq 'Closed'`;
+  } else if (params.status && params.status !== 'Active') {
+    statusFilter = `StandardStatus eq '${params.status}'`;
+  }
+  const filters: string[] = [statusFilter];
 
   if (params.city) filters.push(`City eq '${params.city}'`);
   if (params.minPrice) filters.push(`ListPrice ge ${params.minPrice}`);
