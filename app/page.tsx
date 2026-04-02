@@ -101,8 +101,9 @@ export default async function HomePage() {
           </span>
         </div>
 
-        {/* Search bar — 60% from top */}
+        {/* Search bar — 60% from top (hidden on mobile, mobile-hero shows instead) */}
         <div
+          className="hero-searchbar"
           style={{
             position: 'absolute',
             top: '60%',
@@ -146,6 +147,7 @@ export default async function HomePage() {
       <style>{`
         @media (max-width: 767px) {
           .mobile-hero { display: block !important; }
+          .hero-searchbar { display: none !important; }
         }
       `}</style>
 
