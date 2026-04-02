@@ -38,7 +38,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/About/MELANIELARACY1.jpg',
     slug: 'melanie-laracy',
-    bio: [],
+    bio: [
+      "Allow us to introduce Mel, a woman whose life is enriched by an incredible husband and three children who are not only her world but also the driving force behind her active lifestyle. Originally hailing from the vibrant island of Trinidad, Mel's family made the journey to Brantford in 1989 when she was just 10 years old. Despite not being a winter enthusiast, Mel has found joy in embracing the season's lighter side, indulging in activities like tubing and enthusiastically cheering on her son during hockey games.",
+      "Mel's journey into real estate spans two fruitful decades of investment, encompassing a wealth of knowledge in areas such as investment properties and home flipping, as well as discerning the characteristics of desirable neighbourhoods. The more she delved into the intricacies of the real estate market, the more captivated and passionate she became. Transitioning into the role of a realtor was a natural evolution for Mel, aligning seamlessly with her innate ability to facilitate others on their journey and transform dreams into reality.",
+      "One of Mel's most cherished moments occurred in the summer of 2018, a testament to her dedication and prowess in the field. Successfully assisting her clients in securing their dream home during a spirited bidding war, all while attending a wedding, stands out as a testament to Mel's commitment and capability. In an industry where every deal is unique, Mel's strength as an agent lies in her professionalism, organization, and a friendly demeanour that sets her apart. Ready to assist you with your next real estate investment, Mel brings a combination of expertise and approachability to ensure a seamless and successful experience.",
+    ],
   },
   {
     name: 'Dina Dalia',
@@ -47,7 +51,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/DINADALIA1.jpg',
     slug: 'dina-dalia',
-    bio: [],
+    bio: [
+      "Meet Dina Dalia, a dynamic and passionate realtor whose journey in service and dedication has taken diverse paths. With a background as a devoted school administrator for many years, she has seamlessly transitioned into the world of real estate, bringing with her a wealth of experience in leadership, kindness, and thoroughness. Fluent in three languages—French, English, and Italian—Dina has the unique ability to connect with clients from various cultural backgrounds, ensuring a personalized and inclusive approach to real estate transactions.",
+      "The multilingual advantage goes beyond just communication; it reflects her commitment to breaking down barriers and making the home-buying or selling process as smooth as possible for everyone involved. Known for her unwavering dedication, Dina goes above and beyond to understand the unique needs and desires of her clients. She brings a thorough and meticulous approach to every aspect of real estate, from market analysis to property negotiations, ensuring that clients feel confident and supported throughout the entire process.",
+      "Beyond the real estate realm, Dina has been a true community advocate. She finds fulfillment in volunteering and helping others, recognizing the importance of giving back to the community that she serves. Whether it's assisting with local initiatives or contributing her time to charitable causes, Dina embodies the spirit of compassion and community engagement. In the world of real estate, Dina isn't just about transactions; she is about building relationships, understanding dreams, and turning visions into reality. For a real estate experience that is not only professional but also infused with care and understanding, Dina is your dedicated guide on the journey to finding or selling your home.",
+    ],
   },
   {
     name: 'Mackenzie Cole',
@@ -56,7 +64,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/MACKENZIECOLE1.jpg',
     slug: 'mackenzie-cole',
-    bio: [],
+    bio: [
+      "Meet Mack, a true global citizen with roots in the picturesque landscapes of Barbados and the heart of Brantford, Ontario. Mack's journey is a rich tapestry woven with diverse experiences, beginning in the vibrant Caribbean before circling back to his Canadian roots. Born and raised in Barbados, Mack's upbringing was shaped by the fusion of his father's heritage and his mother's Canadian roots in Brantford. His wonderful family includes his two cherished children, Knox and Nova, his wife Tanya, and their rescued Husky, Shooter.",
+      "At the age of 11, Mack made the transition to Brantford, but his ventures were far from ordinary. Embarking on an early passion, he obtained his Private Pilot License at the Brantford Airport by the age of 19, setting the stage for an adventurous trajectory. His journey took him to Moncton Flight College, where he achieved a commercial pilot's license. Although the Caribbean skies initially beckoned him, Mack found himself immersed in a myriad of experiences—from installing Awnings and Canopies with family to bartending and exploring the azure seas on Catamarans, guiding snorkeling tours with sea turtles and exploring shipwrecks.",
+      "Winnipeg became the backdrop for the next chapter of Mack's life, where his aviation career took flight, and he met the love of his life, Tanya. Sixteen years later, the winds of change brought them back to Brantford, a decision driven by the practicality of proximity to Pearson Airport during their commute to Toronto for work in the airline industry. It was during this period that Mack embraced his second career in Real Estate, a path that has become his true passion. As a dedicated Real Estate Salesperson, Mack thrives on the rewarding experiences of connecting with clients, now considered friends, and guiding them through the intricate process of buying and selling real estate. The Pay It Forward Realty Brokerage in Brantford provides the ideal backdrop for Mack's journey, where he feels fortunate to work alongside one of his best friends in a motivating and friendly environment.",
+    ],
   },
   {
     name: 'Matt Dickens',
@@ -65,7 +77,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/TEAM_MATT_DICKENS.jpg',
     slug: 'matt-dickens',
-    bio: [],
+    bio: [
+      "Meet Matt Dickens, a dynamic and dedicated real estate professional who brings a unique blend of knowledge, passion, and dedication to the Pay it Forward Realty team. Matt started his career with a solid foundation in real estate coming from his studies at the University of Guelph. After high school Matt quickly discovered his passion for real estate during his path to receiving his Bachelor of Commerce degree. He majored in the Real Estate and Housing program, the only program specifically focused on real estate in Ontario.",
+      "Throughout his five years attending Guelph University, he was able to gain extensive knowledge in the Real Estate sector and it has helped him become the realtor he is today. Fast forward to Matt's current point in his career, he has been able to help a very diverse group of clientele ranging from first time home buyers, to seasoned investors, to new builds, all while putting his clients needs first.",
+      "What truly sets Matt apart is his unwavering commitment to his clients. He understands that buying or selling a property is a significant life event, and he approaches each transaction with empathy, integrity, and a focus on creating positive experiences. Matt takes the time to listen to his clients, understand their goals, and tailor his approach to suit their individual needs. His client-centric philosophy is not just about closing deals; it's about building lasting relationships.",
+    ],
   },
   {
     name: 'Jake Laracy',
@@ -74,7 +90,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/About/JAKELARACY1.jpg',
     slug: 'jake-laracy',
-    bio: [],
+    bio: [
+      "Introducing Jake Laracy - With a foundation rooted in a passion for real estate that began in high school while assisting his father in flipping houses. Jake understands that buying and selling a home is one of the most significant transactions in a person's life. With this in mind, he goes above and beyond to ensure his clients' needs are not only met but exceeded.",
+      "Known for his strong work ethic, Jake prides himself on working tirelessly to secure the best possible outcomes for his clients. Jake's commitment to \"paying it forward\" extends beyond the realm of real estate transactions. He believes in fostering lasting relationships with his clients, built on trust, transparency, and open communication. Whether you're a first-time homebuyer, a seasoned investor, or looking to sell your property, Jake is dedicated to guiding you through every step of the process with professionalism and a personal touch.",
+      "In a competitive real estate market, Jake's strengths shine through. He is known for his attention to detail, excellent problem-solving skills, and a proactive approach to overcoming challenges. Jake is not just a real estate agent; he's your advocate, tirelessly working to ensure your real estate journey is smooth, stress-free, and ultimately successful.",
+    ],
   },
   {
     name: 'Brad Lovell',
@@ -83,7 +103,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/TEAM_BRAD_LOVELL.jpg',
     slug: 'brad-lovell',
-    bio: [],
+    bio: [
+      "Introducing Brad Lovell, a dynamic realtor who has made a significant impact in the real estate landscape since obtaining his license two years ago. Brad's fresh perspective and unwavering commitment to excellence have propelled him to success in a relatively short time. In just two years, Brad has demonstrated a profound understanding of the ever-evolving real estate market.",
+      "His sharp analytical skills, coupled with a passion for staying ahead of industry trends, enable him to provide clients with informed and strategic guidance. Brad's knack for leveraging technology and social media has proven instrumental in reaching a broader audience and maximizing property exposure.",
+      "Despite his relatively brief tenure, Brad has built a reputation for transparency, integrity, and stellar customer service. Clients appreciate his hands-on approach and the dedication he brings to each transaction. Brad Lovell: a rising star in real estate, blending youthful enthusiasm with a solid foundation of knowledge to help you achieve your real estate goals.",
+    ],
   },
   {
     name: 'Sarah Szabo',
@@ -92,7 +116,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/SARAHSZABO1.jpg',
     slug: 'sarah-szabo',
-    bio: [],
+    bio: [
+      "Meet Sarah, a passionate and dedicated real estate professional whose journey in the industry is guided by a simple yet powerful principle: helping people achieve their dreams of finding the perfect home. With an unwavering commitment to client satisfaction and a genuine love for the intricacies of the real estate world, Sarah has become a beacon of support for those navigating the sometimes daunting process of buying or selling a home.",
+      "Born and raised in Brantford and Brant County, Sarah discovered her passion for real estate early in life. Her love for architecture, design, and the concept of \"home\" makes Sarah the perfect choice for your Realtor. Before diving into real estate, Sarah spent an impressive 15 years honing her skills in the culinary world, adding a unique flavour to her professional journey. Sarah's diverse educational background includes marketing, healthcare management, culinary services, and even wedding planning.",
+      "Beyond her professional expertise, Sarah plays pivotal roles as a devoted wife and mother to two amazing children and two golden retrievers. Her goal extends beyond facilitating transactions; she aims to help families build the foundation for a lifetime of memories. Sarah's journey into real estate was sparked by a transformative experience during her own home-buying journey. Guided by an exceptional realtor for her first home purchase, Sarah was inspired by the impactful difference a knowledgeable and caring professional can make. Family, she believes, is the heart of every home, and helping others find their perfect space is not just a transaction for Sarah; it's a commitment to fostering a sense of belonging and creating lasting memories for families.",
+    ],
   },
   {
     name: 'Kristie Ferraccioli',
@@ -101,7 +129,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/TEAM_KRISTIE_FERRACCIOLI.jpg',
     slug: 'kristie-ferraccioli',
-    bio: [],
+    bio: [
+      "Allow us to introduce Kristie Ferraccioli, a highly accomplished realtor whose multifaceted journey in the real estate arena began with a foundational role as a real estate law clerk. Beyond her professional prowess, Kristie is the epitome of a well-rounded individual, serving as a dedicated wife and nurturing mom to two wonderful children.",
+      "Kristie's entrance into the dynamic world of real estate was marked by a seamless transition from her role as a real estate law clerk. Her keen understanding of legal intricacies not only formed the bedrock of her professional expertise but also became the cornerstone for her ability to navigate the complexities of the real estate market with finesse. What truly sets Kristie apart is her unique blend of compassion and efficiency, a quality she brings not only to her professional endeavours but also to her role as a wife and mother.",
+      "In her capacity as a realtor, Kristie leverages her legal knowledge to guide clients through transactions with unwavering precision and crystal-clear communication. Her commitment to excellence is evident in every aspect of her work, making her a trusted advisor in the fiercely competitive real estate market. As a wife and mom of two, she brings warmth and support to her partnership, while as a mother, she embodies love, patience, and the nurturing spirit that defines her character.",
+    ],
   },
   {
     name: 'Eric Gaudreau',
@@ -110,7 +142,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/ERICGAUDREAU1.jpg',
     slug: 'eric-gaudreau',
-    bio: [],
+    bio: [
+      "Eric's professional journey began in corporate marketing and advertising, where he honed his skills working with clients across the United States and Canada. In this fast-paced environment, Eric developed a knack for asking the right questions to craft tailored marketing solutions and strategies—a skill that continues to define his approach today.",
+      "Growing up, Eric was immersed in discussions about houses and homes, thanks to his father's involvement in the home improvement business. This early exposure laid the groundwork for his later venture into the real estate industry. A chance encounter with a builder proved to be a pivotal moment in Eric's career. The builder, in search of someone to handle open houses part-time, found in Eric not just a capable professional but also someone with a genuine passion for the industry. What started as a part-time role evolved into a full-time position, encompassing both on-site construction and sales.",
+      "The gratification of helping individuals find the perfect home, matching both model and lot to their needs, fuelled Eric's enthusiasm for the real estate sector. Recognizing the opportunity to broaden his impact, Eric made the bold decision to transition into Real Estate full time. Today, Eric combines his background in marketing, his hands-on experience in construction and sales, and his genuine passion for helping people find the house that they will call home.",
+    ],
   },
   {
     name: 'Leisha Miller-Bradley',
@@ -119,7 +155,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/LEISHAMILLER-BRADLEY1.jpg',
     slug: 'leisha-miller-bradley',
-    bio: [],
+    bio: [
+      "Leisha is not just a dedicated and passionate Realtor, but a proud mom to an amazing son and happily married to an incredible husband. Born in Halifax, Nova Scotia and raised in Brantford, Leisha's roots are embedded in both great cities, and after spending some significant years in both, Brantford became home once again. Growing up in a close-knit family has instilled the importance of strong bonds, the value of family and unwavering support.",
+      "Family is not just a word; it's the cornerstone of her existence. It is her foundation and support system. Family bonds are the strength and driving force behind her passion for creating homes where beautiful stories about families unfold. A true sports fanatic whether community or professional, and rooted in spirituality, Leisha approaches life with a positive outlook. Outside of real estate you will often find her reading, writing or listening to music.",
+      "As she continues on this journey as a Realtor, Leisha is excited about the opportunities to make a positive impact on the lives of those around her. Whether you're buying, selling, or just exploring the possibilities, she is here to turn your real estate aspirations into reality, with a smile and a genuine commitment to your happiness and satisfaction.",
+    ],
   },
   {
     name: 'Ryan Kirkpatrick',
@@ -128,7 +168,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/RYANKIRKPATRICK1.jpg',
     slug: 'ryan-kirkpatrick',
-    bio: [],
+    bio: [
+      "Welcome to a world of possibilities in real estate! Meet Ryan Kirkpatrick, your trusted Realtor, dedicated to making your property dreams a reality. He specializes in commercial and residential real estate so whether you're a first-time buyer, upgrading, or downsizing, he specializes in finding your ideal home. His local expertise ensures you not only get a house but a community that suits your lifestyle.",
+      "In the fast-paced commercial real estate arena, he excels in securing spaces that propel businesses forward. From land for development to leasing, he navigates the market to align your goals with the perfect commercial property.",
+      "Your satisfaction is his top priority. Real estate transactions can be complex from market analysis to paperwork, and he's here to simplify your real estate journey.",
+    ],
   },
   {
     name: 'Tonia Cheevers',
@@ -137,7 +181,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/About/Tonia%20Cheevers.webp',
     slug: 'tonia-cheevers',
-    bio: [],
+    bio: [
+      "Allow us to introduce Tonia Cheevers, a dedicated real estate professional with a diverse background that sets her apart in the industry. With eight years of experience in real estate, a strong foundation in legal administration, and hands-on experience in home renovations, Tonia brings a well-rounded skill set to every transaction. Her career began in legal administration, giving her a deep understanding of contracts, negotiations, and the legal intricacies of real estate transactions.",
+      "She later expanded her expertise into property management and home renovations, where she has worked on both client projects and her own home. This hands-on experience allows her to provide valuable insights into home value, potential improvements, and investment opportunities. Beyond her professional life, Tonia is a devoted wife, proud mom of two, and loving stepmom of two. She understands the importance of finding the perfect home that meets the needs of a growing family.",
+      "Tonia's down-to-earth approach, excellent communication skills, and keen eye for detail make her an exceptional advocate for buyers and sellers alike. Whether she's guiding first-time homeowners, seasoned investors, or families looking for their forever home, she ensures her clients feel confident and informed every step of the way. With her unique blend of experience, expertise, and dedication, Tonia is committed to helping her clients turn their real estate dreams into reality.",
+    ],
   },
   {
     name: 'Amy Ditchburn',
@@ -146,7 +194,11 @@ export const agents: Agent[] = [
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/AMYDITCHBURN.webp',
     slug: 'amy-ditchburn',
-    bio: [],
+    bio: [
+      "With a strong foundation in business and an innate drive to go above and beyond, Amy brings a unique blend of hustle, heart, and hometown expertise to the world of real estate. From an early age, Amy knew she was destined for business—motivated by a desire to work hard, build meaningful relationships, and make a positive impact on those around her. Having grown up in Oakville, Amy has a deep understanding of the GTA and surrounding areas, giving her a competitive edge when helping clients transition between Brantford, Toronto, and everything in between.",
+      "Her own journey—from the bustling streets of the GTA to the charming community of Paris, Ontario—has given her first-hand experience of what makes each neighborhood special. In 2020, Amy and her family made the move to Paris. With pandemic life in full swing, she turned her downtime into drive time—literally—cruising around the area to familiarize herself with every street, pocket, and hidden gem. That on-the-ground knowledge has become a cornerstone of her real estate expertise: location, location, location.",
+      "Specializing in residential homes, Amy is dedicated to putting her clients first. Her mission? To ensure that every client not only finds a house—but a place they're truly excited to call home. Outside of real estate, Amy is all about balance. You'll often find her at the rink playing women's hockey or gathered around the table playing board games with her family. Whether you're buying, selling, or just exploring your options, Amy is here to make the journey seamless, informed, and genuinely enjoyable.",
+    ],
   },
   {
     name: 'Katelyne Schram',
