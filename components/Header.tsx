@@ -12,7 +12,7 @@ const navLinks = [
     label: 'LISTINGS',
     dropdown: [
       { href: '/listings/new', label: 'New Listings' },
-      { href: '/listings/sold', label: 'Sold Listings' },
+      { href: '/listings/sold', label: 'Sold By Us' },
     ],
   },
   { href: '/sellers/home-worth', label: 'HOME WORTH' },
