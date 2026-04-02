@@ -8,7 +8,7 @@ const navLinks = [
   { href: '/', label: 'HOME' },
   { href: '/team', label: 'TEAM' },
   { href: '/listings', label: 'LISTINGS' },
-  { href: '/sellers/home-worth', label: 'HOME EVALUATION' },
+  { href: '/sellers/home-worth', label: 'HOME WORTH' },
   { href: '/buyers', label: 'BUYERS' },
   { href: '/sellers', label: 'SELLERS' },
   { href: '/blog', label: 'BLOG' },
@@ -123,10 +123,13 @@ export default function Header() {
                     style={{
                       color: 'white',
                       textTransform: 'uppercase',
-                      fontSize: '16px',
+                      fontSize: '13px',
                       fontFamily: "'Raleway', sans-serif",
-                      padding: '20px 15px',
+                      fontWeight: 600,
+                      letterSpacing: '0.5px',
+                      padding: '20px 10px',
                       display: 'block',
+                      whiteSpace: 'nowrap',
                       transition: 'color 0.2s',
                     }}
                     onMouseEnter={(e) => {
