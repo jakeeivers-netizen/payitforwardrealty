@@ -12,7 +12,7 @@ export const agents: Agent[] = [
   {
     name: 'Jay Lesky',
     title: 'Founder/REALTOR®',
-    phone: '(519) 757-7439',
+    phone: '519-861-9867',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/TEAM_JAY_LESKY.jpg',
     slug: 'jay-lesky',
@@ -25,7 +25,7 @@ export const agents: Agent[] = [
   {
     name: 'Jake Eivers',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '519-209-8010',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/JAKEEIVERS1.jpg',
     slug: 'jake-eivers',
@@ -34,7 +34,7 @@ export const agents: Agent[] = [
   {
     name: 'Melanie Laracy',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '519-732-8726',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/About/MELANIELARACY1.jpg',
     slug: 'melanie-laracy',
@@ -47,7 +47,7 @@ export const agents: Agent[] = [
   {
     name: 'Dina Dalia',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '519-755-1757',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/DINADALIA1.jpg',
     slug: 'dina-dalia',
@@ -60,7 +60,7 @@ export const agents: Agent[] = [
   {
     name: 'Mackenzie Cole',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '204-899-4126',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/MACKENZIECOLE1.jpg',
     slug: 'mackenzie-cole',
@@ -73,7 +73,7 @@ export const agents: Agent[] = [
   {
     name: 'Matt Dickens',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '226-388-7924',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/TEAM_MATT_DICKENS.jpg',
     slug: 'matt-dickens',
@@ -86,7 +86,7 @@ export const agents: Agent[] = [
   {
     name: 'Jake Laracy',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '226-934-4061',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/About/JAKELARACY1.jpg',
     slug: 'jake-laracy',
@@ -99,7 +99,7 @@ export const agents: Agent[] = [
   {
     name: 'Brad Lovell',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '519-209-6522',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/TEAM_BRAD_LOVELL.jpg',
     slug: 'brad-lovell',
@@ -112,7 +112,7 @@ export const agents: Agent[] = [
   {
     name: 'Sarah Szabo',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '519-865-6077',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/SARAHSZABO1.jpg',
     slug: 'sarah-szabo',
@@ -125,7 +125,7 @@ export const agents: Agent[] = [
   {
     name: 'Kristie Ferraccioli',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '519-802-1548',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/TEAM_KRISTIE_FERRACCIOLI.jpg',
     slug: 'kristie-ferraccioli',
@@ -138,7 +138,7 @@ export const agents: Agent[] = [
   {
     name: 'Eric Gaudreau',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '905-906-1079',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/ERICGAUDREAU1.jpg',
     slug: 'eric-gaudreau',
@@ -151,7 +151,7 @@ export const agents: Agent[] = [
   {
     name: 'Leisha Miller-Bradley',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '519-802-9430',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/LEISHAMILLER-BRADLEY1.jpg',
     slug: 'leisha-miller-bradley',
@@ -164,7 +164,7 @@ export const agents: Agent[] = [
   {
     name: 'Ryan Kirkpatrick',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '289-983-7654',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/RYANKIRKPATRICK1.jpg',
     slug: 'ryan-kirkpatrick',
@@ -177,7 +177,7 @@ export const agents: Agent[] = [
   {
     name: 'Tonia Cheevers',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '289-929-1069',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/About/Tonia%20Cheevers.webp',
     slug: 'tonia-cheevers',
@@ -190,7 +190,7 @@ export const agents: Agent[] = [
   {
     name: 'Amy Ditchburn',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '905-616-0702',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/AMYDITCHBURN.webp',
     slug: 'amy-ditchburn',
@@ -203,7 +203,7 @@ export const agents: Agent[] = [
   {
     name: 'Vaibhav Dhutti',
     title: 'Sales Representative',
-    phone: '(519) 757-7439',
+    phone: '416-565-1054',
     email: 'info@payitforwardrealty.ca',
     photo: 'https://cdn-websites.agentlocator.ca/18723/Menu/VAIBHAVDHUTTI.jpg',
     slug: 'vaibhav-dhutti',
