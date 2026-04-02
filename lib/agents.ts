@@ -201,15 +201,6 @@ export const agents: Agent[] = [
     ],
   },
   {
-    name: 'Katelyne Schram',
-    title: 'Sales Representative',
-    phone: '(519) 757-7439',
-    email: 'info@payitforwardrealty.ca',
-    photo: 'https://cdn-websites.agentlocator.ca/18723/About/_R6_2942wb.webp',
-    slug: 'katelyne-schram',
-    bio: [],
-  },
-  {
     name: 'Vaibhav Dhutti',
     title: 'Sales Representative',
     phone: '(519) 757-7439',
