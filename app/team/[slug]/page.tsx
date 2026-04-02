@@ -61,6 +61,22 @@ export default async function AgentPage({ params }: { params: Promise<{ slug: st
               </a>
             </div>
 
+            {/* Social links */}
+            {(agent.facebook || agent.instagram) && (
+              <div style={{ marginTop: '20px', display: 'flex', gap: '12px' }}>
+                {agent.facebook && (
+                  <a href={agent.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '38px', height: '38px', backgroundColor: '#1877f2', borderRadius: '4px', textDecoration: 'none' }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                  </a>
+                )}
+                {agent.instagram && (
+                  <a href={agent.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '38px', height: '38px', background: 'radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)', borderRadius: '4px', textDecoration: 'none' }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                  </a>
+                )}
+              </div>
+            )}
+
             {/* CTA buttons */}
             <div style={{ marginTop: '28px', display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
               <Link href="/contact" style={{ padding: '13px 32px', backgroundColor: '#58b3e5', color: '#fff', fontFamily: 'Raleway, sans-serif', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.08em', fontWeight: 700, textDecoration: 'none' }}>
