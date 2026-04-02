@@ -3,10 +3,15 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import AuthModal from './AuthModal';
+import { agents } from '@/lib/agents';
 
 const navLinks = [
   { href: '/', label: 'HOME' },
-  { href: '/team', label: 'TEAM' },
+  {
+    href: '/team',
+    label: 'TEAM',
+    dropdown: agents.map((a) => ({ href: `/team/${a.slug}`, label: a.name })),
+  },
   {
     href: '/listings',
     label: 'LISTINGS',
@@ -157,7 +162,9 @@ export default function Header() {
                       listStyle: 'none',
                       margin: 0,
                       padding: '8px 0',
-                      minWidth: '160px',
+                      minWidth: '190px',
+                      maxHeight: '400px',
+                      overflowY: 'auto',
                       boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
                       zIndex: 2000,
                       display: 'none',
