@@ -7,7 +7,14 @@ import AuthModal from './AuthModal';
 const navLinks = [
   { href: '/', label: 'HOME' },
   { href: '/team', label: 'TEAM' },
-  { href: '/listings', label: 'LISTINGS' },
+  {
+    href: '/listings',
+    label: 'LISTINGS',
+    dropdown: [
+      { href: '/listings/new', label: 'New Listings' },
+      { href: '/listings/sold', label: 'Sold Listings' },
+    ],
+  },
   { href: '/sellers/home-worth', label: 'HOME WORTH' },
   { href: '/buyers', label: 'BUYERS' },
   { href: '/sellers', label: 'SELLERS' },
@@ -117,7 +124,7 @@ export default function Header() {
               }}
             >
               {navLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.href} style={{ position: 'relative' }} className="nav-item">
                   <Link
                     href={link.href}
                     style={{
@@ -141,6 +148,48 @@ export default function Header() {
                   >
                     {link.label}
                   </Link>
+                  {link.dropdown && (
+                    <ul className="nav-dropdown" style={{
+                      position: 'absolute',
+                      top: '100%',
+                      left: 0,
+                      background: 'white',
+                      listStyle: 'none',
+                      margin: 0,
+                      padding: '8px 0',
+                      minWidth: '160px',
+                      boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                      zIndex: 2000,
+                      display: 'none',
+                    }}>
+                      {link.dropdown.map((sub) => (
+                        <li key={sub.href}>
+                          <Link
+                            href={sub.href}
+                            style={{
+                              display: 'block',
+                              padding: '10px 20px',
+                              color: '#1a1a1a',
+                              fontFamily: "'Raleway', sans-serif",
+                              fontSize: '13px',
+                              fontWeight: 500,
+                              textDecoration: 'none',
+                              whiteSpace: 'nowrap',
+                              transition: 'color 0.2s',
+                            }}
+                            onMouseEnter={(e) => {
+                              (e.currentTarget as HTMLAnchorElement).style.color = '#58b3e5';
+                            }}
+                            onMouseLeave={(e) => {
+                              (e.currentTarget as HTMLAnchorElement).style.color = '#1a1a1a';
+                            }}
+                          >
+                            {sub.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </li>
               ))}
             </ul>
@@ -267,6 +316,9 @@ export default function Header() {
         }
         @media (min-width: 992px) {
           .mobile-menu { display: none !important; }
+        }
+        .nav-item:hover .nav-dropdown {
+          display: block !important;
         }
       `}</style>
 
